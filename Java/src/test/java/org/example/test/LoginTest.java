@@ -58,5 +58,6 @@ public class LoginTest extends BaseSeleniumTest {
     LoginPageModel page = new LoginPageModel(this.getTestObject());
     page.openLoginPage();
     Assert.assertTrue(page.loginWithInvalidCredentials(username, password));
+System.out.println("Ajay");
   }
 }
